@@ -25,4 +25,8 @@ def check_leap_year(year:int) -> str:
         return "Not Leap Year"
     
 
-print(check_leap_year(2000))
+def main(year:int) -> None:
+    print(check_leap_year(year))
+
+if __name__ == '__main__':
+    main(2000)
